@@ -28,7 +28,7 @@ def reset(update, context):
     update.message.reply_text("🔄 បានកំណត់ឡើងវិញ")
 
 def main():
-    TOKEN = '7951803629:AAE-BBVFV5pDEMoQnjiEP-LngN3UXqnO5sM
+    TOKEN = '7951803629:AAGyubNt9KY4xqu5mzTQ_3jjlRJaMj0WUfw'
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
